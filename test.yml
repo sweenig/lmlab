@@ -1,7 +1,5 @@
 - name: Echo
-  hosts: 127.0.0.1
-  connection: local
-  gather_facts: false
+  hosts: all
   tasks:
   - name: Print debug message
     debug:
